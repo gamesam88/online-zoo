@@ -1,0 +1,29 @@
+@media screen and (max-width: 500px) {
+    .pands_4_x {
+        width: 7.89px;
+        height: 7.89px;
+        margin: 30px 36px 0 6px;
+
+    }
+
+    .panda {
+        width: 160.15px;
+        height: 138.72px;
+    }
+
+    .pands_4 {
+        font-size: 40.6015px;
+        line-height: 80%;
+    }
+}
+
+@media screen and (max-width: 439px) {
+
+    .footer_bottom_media {
+        right: 170px;
+    }
+
+    .media_list {
+        flex-direction: row;
+    }
+}

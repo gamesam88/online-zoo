@@ -1,0 +1,65 @@
+/* burget active */
+
+.burger_active {
+    display: block !important;
+
+}
+
+.popup_menu {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+.popup_menu h2 {
+    font-weight: 400;
+    font-size: 15.2116px;
+    line-height: 120%;
+    text-align: center;
+    color: #FE9013;
+}
+
+.popup_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 329px;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 10px 0 0 10px;
+}
+
+.popup_icon {
+    margin-bottom: 30px;
+}
+
+.close_popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 14px;
+    height: 14px;
+}
+
+.popup_nav_list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.popup_nav_item a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #333B41;
+}
+
+.popup_nav_item a:hover {
+    color: #FE9013;
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width: 880px) {
+    .nav_list {
+        gap: 30px;
+        margin-left: 30px;
+    }
+
+    .main_wrapper_p {
+        text-align: center;
+    }
+
+}

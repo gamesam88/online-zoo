@@ -1,0 +1,94 @@
+@media (max-width: 600px) {
+    .section_4_content_imgs {
+        flex-direction: column;
+    }
+
+    .section_imgs_card::before {
+        position: absolute;
+        transform: rotate(87deg);
+        top: 210px;
+        left: 138px;
+    }
+
+    .section_imgs_card::after {
+        position: absolute;
+        transform: rotate(87deg);
+        top: 450px;
+        left: 180px;
+    }
+
+
+    .section_3_wrapper {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100%;
+        width: 285.24px;
+    }
+
+    .section_3_container {
+        height: 100%;
+        width: 285.24px;
+    }
+
+    .section_3_wrapper {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+
+    .circle_arrow {
+        display: none;
+    }
+
+    .howWorks_rihth_flower {
+        right: -90px;
+    }
+
+    .circle_orange {
+        width: 210px;
+        height: 210px;
+        left: calc(50% - 210px/2 + 70px);
+        top: 34.23px;
+    }
+
+    .circle_text {
+        width: 225px;
+        height: 180px;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 75%;
+        left: calc(50% - 225px/2 + 100px);
+        top: 70.04px;
+    }
+
+    .howWorks_text {
+        max-width: 495;
+        width: 100%;
+    }
+
+    .section_3_container {
+        height: 1388px;
+    }
+}
+
+@media screen and (max-width: 439px) {
+    .circle_orange {
+        left: calc(50% - 210px/2 + 0px);
+    }
+
+    .circle_text {
+        left: calc(50% - 225px/2 + 30px);
+    }
+
+    .circle_button {
+        left: 10px;
+    }
+
+    .footer_bottom_media {
+        right: 170px;
+    }
+
+    .media_list {
+        flex-direction: row;
+    }
+}
