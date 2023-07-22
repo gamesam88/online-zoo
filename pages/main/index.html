@@ -28,19 +28,24 @@
     ym(94369833, "init", {
          clickmap:true,
          trackLinks:true,
-         accurateTrackBounce:true
+         accurateTrackBounce:true,
+         params: window.params || { }
     });
  </script>
  <noscript><div><img src="https://mc.yandex.ru/watch/94369833" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
  <!-- /Yandex.Metrika counter -->
 
- <script>
- ym(94369833,'reachGoal','send_order', {
-    '{order_id}': 'id15',
-    'order_price': 130.32,
- })
- </script>
+ <script type="text/javascript">
 
+    var params = {
+        '{order_id}' : "id16",
+        'order_price' : 1355.32,
+        'currency' : "RUB"
+    }
+
+ ym(94369833,'reachGoal','send_order', params)
+
+ </script>
 
 
 <body>
